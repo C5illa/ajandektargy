@@ -229,6 +229,10 @@
   .logo {
   max-width: 200px;
   }
+
+  .logo:hover {
+    transform: scale(101%);
+  }
   
   .header__button {
     text-decoration: none;
