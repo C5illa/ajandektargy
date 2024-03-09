@@ -404,9 +404,7 @@
   }
   
   .footer__center {
-    display: inline-block;
     color: var(--product-bacground);
-    padding-top: 20px;
   }
 
   .logo_filter {
@@ -415,11 +413,13 @@
   }
 
   .footer__text {
+    height: 15px;
     font-size: min(4rem, 9px);
     font-family: var(--font);
     color: var(--highlight-color);
-    display: inline;
+    display: inline-block;
     text-transform: uppercase;
+    padding-top: 20px;
   }
   
   .footer--increase {
