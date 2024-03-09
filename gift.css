@@ -365,10 +365,8 @@
     margin-right: 10px;
    }
   
-   .footer__text {
+   .footer__info {
     font-size: .9rem;
-    margin-top: 10px;
-    margin-bottom: -2rem;
   }
   
   .footer__designed {
@@ -405,12 +403,23 @@
     transform: translate(0, -5px);
   }
   
-  .footer__source {
-    text-align: center;
-    font-size: min(4rem, 8px);
-    padding: 1rem;
+  .footer__center {
+    display: inline-block;
+    color: var(--product-bacground);
+    padding-top: 20px;
+  }
+
+  .logo_filter {
+    width: 80px;
+    filter: var(--png-light-filter);
+  }
+
+  .footer__text {
+    font-size: min(4rem, 9px);
     font-family: var(--font);
     color: var(--highlight-color);
+    display: inline;
+    text-transform: uppercase;
   }
   
   .footer--increase {
