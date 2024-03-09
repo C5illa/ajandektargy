@@ -164,7 +164,7 @@
   footer {grid-area: footer;}
   
   .wrapper {
-  background-color: var(--bg-color);
+    background-color: var(--bg-color);
     display: grid;
     gap: 0.1rem;
     grid-template-areas: 
