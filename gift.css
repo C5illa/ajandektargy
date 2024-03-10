@@ -72,8 +72,8 @@
     font-weight: 500;
     text-transform: uppercase;
     font-weight: bold;
-    padding-top: 1.rem;
-    letter-spacing: .2rem;
+    padding-top: 1rem;
+    letter-spacing: 0.2rem;
   }
   
   p, .product__text, .header__text {
@@ -136,7 +136,7 @@
   }
   
   .header__text--warning {
-    padding-top: 0;
+    padding-top: 0px;
     margin-bottom: 2rem;
     color: var(--highlight-color);
   }
@@ -232,7 +232,7 @@
   }
 
   .logo:hover {
-    transform: scale(101%);
+    transform: scale(1.01);
   }
   
   .header__button {
@@ -334,7 +334,8 @@
    width: 100%;
    text-align: center;
    font-family: var(--font);
-   padding-bottom: 1rem;
+   padding-bottom: 2rem;
+   margin-bottom: -1rem;
   }
   
   .footer__contact {
@@ -366,7 +367,7 @@
    }
   
    .footer__info {
-    font-size: .9rem;
+    font-size: 13.2px;
   }
   
   .footer__designed {
@@ -381,7 +382,11 @@
   .dark_bg {
     width: 100%;
     background-color:var(--font-color);
-    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
   }
 
   .footer__button {
@@ -392,9 +397,9 @@
   .footer__topicon {
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: 0px;
     width: 33px;
-    margin-right: 70px;
+    margin-right: 30px;
     margin-bottom: -45px;
     filter: var(--png-light-filter);
   }
@@ -402,24 +407,20 @@
   .footer__topicon:hover {
     transform: translate(0, -5px);
   }
-  
-  .footer__center {
-    color: var(--product-bacground);
-  }
 
   .logo_filter {
     width: 80px;
     filter: var(--png-light-filter);
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: -33.5px;
   }
 
   .footer__text {
-    height: 15px;
     font-size: min(4rem, 9px);
     font-family: var(--font);
     color: var(--highlight-color);
-    display: inline-block;
     text-transform: uppercase;
-    padding-top: 20px;
   }
   
   .footer--increase {
@@ -443,4 +444,8 @@
     transform: scale(1.03);
   }
 
-  
+  @media (min-width: 400px) {
+    .dark_bg {
+      flex-direction: row;
+    }
+  }
