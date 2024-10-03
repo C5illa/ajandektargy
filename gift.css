@@ -42,7 +42,7 @@
     text-align: center;
   }
   
-  h2 {
+  h1 {
     text-transform: uppercase;
     font-family: var(--font);
     font-weight: bold;
@@ -224,7 +224,7 @@
   
   header {
   text-align: center;
-  width: 100%;
+  width: 95%;
   }
   
   .header__logo {
@@ -258,7 +258,21 @@
     transition: all .2s ease;
   }
   
-  
+  .header__text--warning {
+    background-color: var(--highlight-color);
+    font-weight: 4500;
+    color: var(--bg-color);
+    padding: 1rem;
+    border-radius: 15px;
+  }
+
+  .cut__warning {
+    color: var(--product-bacground);
+  }
+
+  .cut__warning:hover {
+    color: var(--font-color);
+  }
   
   
   
